@@ -1,0 +1,80 @@
+
+@font-face {
+    font-family: blanka;
+    src: url('../../../assets/font/Blanka-Regular.otf');
+
+}
+
+#particles-js{
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    z-index: -1;
+}
+
+.contenedor{
+    color: white;
+    z-index: 99;
+}
+
+.title{
+    position: absolute;
+    overflow: hidden;
+    top: 50%;
+    -webkit-transform: translate3d(0, -50%, 0);
+    transform: translate3d(0, -50%, 0);
+    z-index: 200;
+    margin-left: 11%;
+}
+
+
+
+.title_text{
+    font-family: blanka;
+    line-height: 1;
+    font-size: 5rem;
+    letter-spacing: 0.1em;
+    margin-bottom: 1.6rem;
+}
+
+
+.title .borde {
+    display: inline-block;
+    margin-bottom: 2.5rem;
+    margin-top: 1.2rem;
+}
+
+.title .borde span:first-child {
+    margin-bottom: 1.2rem;
+}
+.title .borde span {
+    display: block;
+    width: 88px;
+    height: 4px;
+    border-radius: 10px;
+    background: #f10010;
+}
+.title .borde span:last-child {
+    margin-left: 54px;
+}
+
+
+.title_lead {
+    font-size: 1.6rem;
+    line-height: 1.2;
+    letter-spacing: 0.2em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.photo{
+    margin: auto;
+    text-align: center;
+}
+
+
+
+
+.image-title{
+    
+    width: 50%;
+}
