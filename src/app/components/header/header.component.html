@@ -1,0 +1,27 @@
+
+<div class="particles">
+  <ng-particles
+  [id]="id"
+  [options]="particlesOptions"
+  [particlesInit]="particlesInit"
+  (particlesLoaded)="particlesLoaded($event)"
+></ng-particles>
+</div>
+<div class="fullscreen__menu" id="menu" ></div>
+<div class="menuPrincipal" id="menuPrincipal" style="display: none;">
+  <a  (click)="mostrar();" href="#">INICIO</a>
+  <a (click)="mostrar();" href="#AcercaDeMi">ACERCA DE MI</a>
+  <a  (click)="mostrar();" href="#contacto">CONTACTO</a>
+</div>
+<header>
+    <nav class="navbar mt-2 m-2">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Javier Rodriguez M.</a>
+          <button class="menu-toogle" id="menu-toogle" (click)="mostrar();">
+            <div class="first-child" id="first-child"></div>
+            <div class="second-child" id="second-child"></div>
+            <div class="last-child" id="last-child"></div>
+          </button>
+        </div>
+      </nav>
+</header>

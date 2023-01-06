@@ -1,0 +1,71 @@
+@font-face {
+    font-family: blanka;
+    src: url('../../../assets/font/Blanka-Regular.otf');
+
+}
+
+.content {
+    color: black;
+    background-color: white;
+    left: 50%;
+}
+
+.title {
+    text-align: center;
+    color: #000000;
+    font-weight: bold;
+    font-family: blanka;
+}
+
+.container-registro {
+    margin-left: 40px;
+    left: 40%;
+}
+
+.img-registro {
+    width: 70%;
+    margin: 50px;
+}
+
+form{
+    margin-top: 2%;
+    width: 50%;
+    margin-left: 25%;
+}
+
+.btn {
+    display: inline-block;
+    text-decoration: none;
+    background: #EB5757;
+    background: -webkit-linear-gradient(to right, #000000, #EB5757);
+    background: linear-gradient(to right, #000000, #EB5757);
+    padding: 10px 20px;
+    border-radius: 22px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.btn:hover {
+    display: inline-block;
+    text-decoration: none;
+    background: #883636;
+    background: -webkit-linear-gradient(to right, #000000, #6d2525);
+    background: linear-gradient(to right, #000000, #6d2525);
+    padding: 10px 20px;
+    border-radius: 22px;
+    color: rgb(255, 255, 255);
+    transform: scale(1px);
+    font-weight: bold;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.form-label {
+    color: #000000;
+}
+
+.svg-wave{
+    rotate: 180deg;
+}

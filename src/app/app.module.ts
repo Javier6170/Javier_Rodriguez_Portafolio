@@ -7,6 +7,12 @@ import { HomeComponent } from './components/home/home.component';
 import { HeaderComponent } from './components/header/header.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { AcercaDeMiComponent } from './components/acerca-de-mi/acerca-de-mi.component';
+import { NgParticlesModule } from "ng-particles";
+import { AngularFullpageModule } from '@fullpage/angular-fullpage';
+import { FullpageComponent } from './components/fullpage/fullpage.component';
+import { ContactoComponent } from './components/contacto/contacto.component';
+import { FormsModule } from '@angular/forms';
+
 
 @NgModule({
   declarations: [
@@ -14,11 +20,16 @@ import { AcercaDeMiComponent } from './components/acerca-de-mi/acerca-de-mi.comp
     HomeComponent,
     HeaderComponent,
     FooterComponent,
-    AcercaDeMiComponent
+    AcercaDeMiComponent,
+    FullpageComponent,
+    ContactoComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    NgParticlesModule,
+    AngularFullpageModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

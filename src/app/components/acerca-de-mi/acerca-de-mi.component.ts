@@ -12,6 +12,11 @@ export class AcercaDeMiComponent implements OnInit {
   ngOnInit(): void {
   }
 
+
+  
+  
+  
+
   
 
 }

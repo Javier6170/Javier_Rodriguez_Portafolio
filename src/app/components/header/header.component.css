@@ -1,0 +1,108 @@
+@font-face {
+    font-family: catamara;
+    src: url('../../../assets/font/Catamaran-VariableFont_wght.ttf');
+
+}
+
+@font-face {
+    font-family: blanka;
+    src: url('../../../assets/font/Blanka-Regular.otf');
+
+}
+
+.particles{
+    z-index: -1;
+    position: fixed;
+    height: 100vh; 
+}
+
+.navbar-brand{
+    color: white;
+    font-size: 1.2rem;
+    font-family: catamara;
+    margin-left: 2%;
+    z-index: 4;
+}
+
+button{
+    display: flex;
+    flex-direction: column;
+    width: 3rem;
+    height: 3rem;
+    border: 0;
+    background: transparent;
+    gap: .65rem;   
+    z-index: 4;
+}
+
+button > div{
+    background-color: rgb(255, 255, 255);
+    height: 2px;
+    width: 100%;
+    border-radius: 5px;
+    transition: all .5s;
+    transform-origin: left;
+    
+}
+
+button:hover div:first-child{
+     transform: rotate(45deg);
+}
+
+button:hover div:nth-child(2){
+    opacity: 0;
+}
+
+button:hover div:last-child{
+    transform: rotate(-45deg);
+}
+
+.fullscreen__menu{
+    position: fixed;
+    top: 0;
+    right: 0;
+    transition: all 1s;
+    border-radius: 0% 0% 0% 100%;
+    padding: 32px 32px 52px 62px;
+    z-index: 2;
+}
+
+
+.menuPrincipal{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    transition: all 1s;
+    z-index: 3;
+
+}
+
+.menuPrincipal a{
+    font-family: blanka;
+    padding: 14px;
+    font-size: 4rem;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    position: relative;
+    transition: all 200ms;
+}
+
+.menuPrincipal a:before{
+    content: '';
+    width: 0;
+    height: 3px;
+    top: 110px;
+    position: absolute;
+    left: 50%;
+    background: white;
+    transition: all 200ms;
+}
+
+.menuPrincipal a:hover:before{
+    width: 100%;
+    left: 0%;
+}
