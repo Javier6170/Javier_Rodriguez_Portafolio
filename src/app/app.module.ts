@@ -8,7 +8,6 @@ import { HeaderComponent } from './components/header/header.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { AcercaDeMiComponent } from './components/acerca-de-mi/acerca-de-mi.component';
 import { NgParticlesModule } from "ng-particles";
-import { AngularFullpageModule } from '@fullpage/angular-fullpage';
 import { FullpageComponent } from './components/fullpage/fullpage.component';
 import { ContactoComponent } from './components/contacto/contacto.component';
 import { FormsModule } from '@angular/forms';
@@ -28,7 +27,6 @@ import { FormsModule } from '@angular/forms';
     BrowserModule,
     AppRoutingModule,
     NgParticlesModule,
-    AngularFullpageModule,
     FormsModule
   ],
   providers: [],
