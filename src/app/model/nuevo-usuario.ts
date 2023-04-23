@@ -1,5 +1,6 @@
 export class NuevoUsuario {
     nombre: string = "";
-    telefono: string = "";
+    subject: string = "";
     correo: string = "";
+    message: string = "";
 }

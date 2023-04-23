@@ -1,27 +1,31 @@
-
-<div class="particles">
-  <ng-particles
-  [id]="id"
-  [options]="particlesOptions"
-  [particlesInit]="particlesInit"
-  (particlesLoaded)="particlesLoaded($event)"
-></ng-particles>
-</div>
-<div class="fullscreen__menu" id="menu" ></div>
+<div class="fullscreen__menu" id="menu"></div>
 <div class="menuPrincipal" id="menuPrincipal" style="display: none;">
-  <a  (click)="mostrar();" href="#">INICIO</a>
-  <a (click)="mostrar();" href="#AcercaDeMi">ACERCA DE MI</a>
-  <a  (click)="mostrar();" href="#contacto">CONTACTO</a>
+  <a (click)="mostrar();" href="#">Inicio</a>
+  <a (click)="mostrar();" href="#AcercaDeMi">Acerca de Mi</a>
 </div>
 <header>
-    <nav class="navbar mt-2 m-2">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">Javier Rodriguez M.</a>
-          <button class="menu-toogle" id="menu-toogle" (click)="mostrar();">
-            <div class="first-child" id="first-child"></div>
-            <div class="second-child" id="second-child"></div>
-            <div class="last-child" id="last-child"></div>
-          </button>
-        </div>
-      </nav>
+  <nav class="navbar mt-2 m-2">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Javier Rodriguez M.</a>
+      <div class="menu-redes">
+        <ul class="col-md-4 justify-content-end list-unstyled d-flex">
+          <li class="ms-3"><a class="text-icon" target="_blank" rel="Facebook javier Rodriguez M"
+              href="https://www.facebook.com/javier.rodriguezmarulanda/"><i class="fa-brands fa-facebook"></i></a></li>
+          <li class="ms-3"><a class="text-icon" target="_blank" rel="Instagram Javier Rodriguez M"
+              href="https://www.instagram.com/javi_417/"><i class="fa-brands fa-instagram"></i></a></li>
+          <li class="ms-3"><a class="text-icon" target="_blank" rel="Linkedin Javier Rodriguez Marulanda"
+              href="https://www.linkedin.com/in/javier-rodríguez-marulanda-8b2725230/"><i
+                class="fa-brands fa-linkedin"></i></a></li>
+          <li class="ms-3"><a class="text-icon" target="_blank" rel="Linkedin Javier Rodriguez Marulanda"
+              href="https://github.com/Javier6170"><i class="fa-brands fa-github"></i></a></li>
+        </ul>
+      </div>
+      
+      <button class="menu-toogle" id="menu-toogle" (click)="mostrar();">
+        <div class="first-child" id="first-child"></div>
+        <div class="second-child" id="second-child"></div>
+        <div class="last-child" id="last-child"></div>
+      </button>
+    </div>
+  </nav>
 </header>

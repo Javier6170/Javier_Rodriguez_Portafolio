@@ -1,0 +1,89 @@
+@media screen and (min-width: 800px){
+    .section-card {
+        grid-template-columns: repeat(2, 1fr);
+        justify-items: normal;
+        gap: 3rem;
+    }
+}
+
+.section-card {
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    margin: 2rem 0;
+    padding: 2rem 0;
+}
+
+@media screen and (min-width: 800px){
+    .card-info {
+        padding: 4.5rem 3rem;
+    }
+}
+
+
+.card-info {
+    background-color: #C9EEFF;
+    color: var(--purpleBackground);
+    padding: 5rem 1.5rem;
+    position: relative;
+    overflow: hidden;
+}
+
+.subtit-section {
+    padding: 1rem 0 2.5rem 0;
+}
+
+.sub-quotes {
+    font-size: 7rem;
+    line-height: 4rem;
+}
+
+.section-card .info-parr {
+    max-width: 350px;
+    position: relative;
+    z-index: 3;
+}
+
+.skill-img {
+    width: 300px;
+    position: absolute;
+    right: -10%;
+    bottom: -20%;
+    z-index: 2;
+}
+
+
+
+
+
+.iconos-tecnologia {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 1rem;
+}
+
+.tecnologia {
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    justify-content: center;
+    padding: 1rem;
+    width: 8rem;
+}
+
+
+
+.tecnologia img {
+    max-width: 4rem;
+    transition: -webkit-transform .2s ease;
+    transition: transform .2s ease;
+    transition: transform .2s ease,-webkit-transform .2s ease;
+}
+
+.tecnologia img:hover {
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+}

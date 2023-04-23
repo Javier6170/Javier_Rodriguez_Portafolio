@@ -23,7 +23,7 @@ export class HeaderComponent{
         menu!.style.background = '#000428';
         menu!.style.background = '-webkit-linear-gradient(to right, #000428, #004e92)';
         menu!.style.background = 'linear-gradient(to right, #000428, #004e92)';
-        menu!.style.padding = '26px 26px 200vw 200vw'
+        menu!.style.padding = '26px 26px 400vw 400vw'
         menu!.style.zIndex = '2;'
         
 

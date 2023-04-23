@@ -9,8 +9,9 @@ import { FooterComponent } from './components/footer/footer.component';
 import { AcercaDeMiComponent } from './components/acerca-de-mi/acerca-de-mi.component';
 import { NgParticlesModule } from "ng-particles";
 import { FullpageComponent } from './components/fullpage/fullpage.component';
-import { ContactoComponent } from './components/contacto/contacto.component';
 import { FormsModule } from '@angular/forms';
+import { TimeLineEducationComponent } from './components/time-line-education/time-line-education.component';
+import { HabilidadesTecnicasComponent } from './components/habilidades-tecnicas/habilidades-tecnicas.component';
 
 
 @NgModule({
@@ -21,7 +22,8 @@ import { FormsModule } from '@angular/forms';
     FooterComponent,
     AcercaDeMiComponent,
     FullpageComponent,
-    ContactoComponent
+    TimeLineEducationComponent,
+    HabilidadesTecnicasComponent
   ],
   imports: [
     BrowserModule,
